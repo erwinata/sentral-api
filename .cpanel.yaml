@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1001964/public_html/api/sentral-api/
+    - /bin/cp -R * $DEPLOYPATH
